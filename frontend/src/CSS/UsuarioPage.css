@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+
+.usuario-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-y: auto;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f4f8;
+}
+
+
+header {
+    width: 100%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    z-index: 10;
+    background-color: #0A192F;
+}
+
+
+
+
+.usuario-content {
+    margin-top: 40px; 
+    padding: 20px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    margin: 0 auto;
+    max-width: 1000px;
+    border-radius: 12px;
+    position: relative;
+    z-index: 5;
+}
+
+
+.usuario-content h1 {
+    font-size: 2.4rem;
+    color: #0A192F;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+
+.usuario-content p {
+    font-size: 1.2rem;
+    color: #4a4a4a;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.video-section {
+    width: 100%;
+    height: 40vh;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.video-fondo-usuario {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+

@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+.hero-section-usuario {
+    background: linear-gradient(to right, #0A192F, #1c2e4a);
+    color: white;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-content-usuario {
+    max-width: 900px;
+    padding: 20px;
+}
+
+.hero-title-usuario {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.hero-description-usuario {
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.hero-subtitle-usuario {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #64ffda;
+}
+
+.hero-list-usuario {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.hero-list-usuario li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.hero-call-to-action-usuario {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #64ffda;
+}

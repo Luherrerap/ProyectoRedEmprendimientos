@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+
+.datos-personales-page {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    height: 100vh;
+    background-color: #f9f9f9;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.datos-personales-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px; 
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; 
+}
+
+.datos-personales-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0A192F; 
+}
+
+.datos-personales-form label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.datos-personales-form input,
+.datos-personales-form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.datos-personales-form textarea {
+    resize: none;
+    height: 100px;
+}
+
+.submit-button {
+    padding: 10px;
+    background-color: #0A192F;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #0A192F;
+}
+
+.message {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #0A192F;
+}
+
+
+.region-select {
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 15px; 
+    border: 1px solid #ddd; 
+    border-radius: 4px; 
+    font-size: 1rem; 
+    background-color: #f9f9f9; 
+    color: #333; 
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; 
+}
+
+
+.region-select:focus {
+    border-color: #0A192F; 
+    box-shadow: 0 0 5px rgba(30, 92, 224, 0.5); 
+    outline: none; 
+}
+
+
+.region-select option {
+    background-color: #ffffff; 
+    color: #333; 
+    padding: 10px; 
+}
+
+.continue-button-container {
+    width: 100%; 
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+.complete-data-button {
+    padding: 10px 20px;
+    background-color: #0A192F;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.complete-data-button:hover {
+    background-color: #12eeb7;
+}

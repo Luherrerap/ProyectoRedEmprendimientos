@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+.sobre-nosotros-container {
+    font-family: 'Poppins', sans-serif;
+    color: #0A192F;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero-sobre-nosotros {
+    background-color: #0A192F;
+    color: white;
+    padding: 50px 20px;
+    border-radius: 0px;
+}
+
+.contenido {
+    max-width: 2000px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.mision-vision {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.mision, .vision {
+    background: #e0e7ff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.equipo {
+    background: #dbeafe;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

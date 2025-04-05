@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+.informacion-emprendimiento-page {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    height: 100vh;
+    background-color: #f9f9f9;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.informacion-emprendimiento-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px; 
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; 
+}
+
+.informacion-emprendimiento-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0A192F;
+}
+
+.informacion-emprendimiento-form label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.informacion-emprendimiento-form input,
+.informacion-emprendimiento-form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.informacion-emprendimiento-form textarea {
+    resize: none;
+    height: 100px;
+}
+
+.submit-button {
+    padding: 10px;
+    background-color: #0A192F;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #0df1e6;
+}
+
+.message {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #0b6b07;
+}
+
+
+.custom-select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: #ffffff;
+    color: #333;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.custom-select:focus {
+    border-color: #0A192F; 
+    box-shadow: 0 0 5px rgb(3, 5, 138); 
+    outline: none;
+}
+
+
+.tipo-emprendimiento-select {
+    background-color: #ffffff; 
+}
+
+
+.region-select {
+    background-color: #ffffff; 
+}
+
+
+.custom-select option {
+    background-color: #ffffff;
+    color: #333;
+    padding: 10px;
+}
+
+
+.redirect-button-container {
+    margin-top: 20px; 
+    text-align: center; 
+    width: 100%; 
+}
+
+
+.redirect-button {
+    padding: 10px 20px;
+    background-color: #0A192F; 
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.redirect-button:hover {
+    background-color: #0df1e6; 
+}

@@ -1,0 +1,38 @@
+
+.emprendimientos-page {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    min-height: 100vh;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.navbar-usuario {
+    width: 100%; 
+    position: sticky; 
+    top: 0;
+    z-index: 10; 
+}
+
+
+.emprendimientos-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    margin-top: 20px; 
+}
+
+
+.page-title {
+    font-size: 2rem;
+    color: #0A192F;
+    margin: 20px 0;
+    text-align: center;
+}
